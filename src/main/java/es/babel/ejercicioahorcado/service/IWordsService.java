@@ -1,10 +1,7 @@
 package es.babel.ejercicioahorcado.service;
 
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 
-@Service
 public interface IWordsService {
     List<String> generate10Words();
     String selectWord();

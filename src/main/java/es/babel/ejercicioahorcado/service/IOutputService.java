@@ -2,7 +2,7 @@ package es.babel.ejercicioahorcado.service;
 
 import org.springframework.stereotype.Service;
 
-@Service
+
 public interface IOutputService {
     void showMenu();
     void showSelectionError();
